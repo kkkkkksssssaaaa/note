@@ -1,0 +1,22 @@
+# to exclude Obsidian workspace settings (including plugin and hotkey configurations)
+/**/.obsidian/*
+/**/.obsidian/workspace.json
+
+# OR only to exclude workspace cache
+/**/.obsidian/workspace/*
+
+# Exclude plugins
+/**/.obsidian/plugins/*
+
+# Exclude Untitled Notes
+obsidian-repository/notes/Untitled*
+# Exclude "bad" names
+obsidian-repository/notes/null*
+
+# Add below lines to exclude OS settings and caches
+obsidian-repository/notes/.trash/
+obsidian-repository/notes/.DS_Store
+workspace.json
+/obsidian-repository/notes/.obsidian/*.json
+
+.idea
