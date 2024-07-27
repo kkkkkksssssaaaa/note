@@ -4,7 +4,9 @@ Personal notes with Obsidian
 .
 ├── study
 │   └── CS
+│       ├── 외워서 끝내는 네트워크 핵심이론-기초
 │       └── 컴퓨터 밑바닥의 비밀
+├── template
 └── today-i-learned
     ├── 2021
     │   ├── 2021-10
@@ -42,5 +44,7 @@ Personal notes with Obsidian
         ├── 2024-03
         ├── 2024-04
         ├── 2024-05
-        └── 2024-06
+        ├── 2024-06
+        └── 2024-07
+
 ```
