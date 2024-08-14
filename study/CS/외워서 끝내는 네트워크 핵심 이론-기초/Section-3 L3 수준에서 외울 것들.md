@@ -114,3 +114,16 @@
 		- 그건 바로 주소 풀(Pool) 을 가지고 있기 때문이다
 	- 보통 DHCP 는 Gateway 를 넘어서 요청하지 않고, Broadcast 도메인 내에서 이루어진다
 	- 하지만 VPN 을 사용한다면 얘기가 달라진다고 한다
+
+## ARP
+- Address Resolution Protocol
+- IP 주소로 MAC 주소를 알아내려 할 때 활용된다
+- 보통 PC 를 부팅하면 Gateway 의 MAC 주소를 찾아내기 위해 ARP Request 가 발생한다
+- IP 주소는 L3 영역이기 때문에, L2 Layer 와 통신하려면 MAC 주소를 알아야만 한다
+- DHCP 는 Gateway 의 MAC 주소를 알려주진 않는다!
+	- Gateway MAC 주소는 ARP Request 를 통해 알 수 있으니 유의하자
+
+## Ping 과  RTT
+- RTT? Round Trip Time
+- Ping 은 특정 호스트에 대한  RTT 를 측정하는 목적으로 사용된다고 한다
+	- Ping 은 단순히  RTT 를 측정하는 도구 중 하나일 뿐
